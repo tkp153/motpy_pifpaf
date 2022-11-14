@@ -1,0 +1,24 @@
+[0.797s] Invoking command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/motpy_pifpaf/src/motpy_pifpaf_msg -DCMAKE_INSTALL_PREFIX=/root/motpy_pifpaf/install/motpy_pifpaf_msg
+[0.887s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.943s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.947s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.594s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.596s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.657s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.667s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.065s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.268s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.289s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.522s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.906s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.548s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[3.548s]   Packages installing interfaces must include
+[3.549s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[3.549s]   package.xml
+[3.549s] Call Stack (most recent call first):
+[3.549s]   CMakeLists.txt:39 (rosidl_generate_interfaces)
+[3.549s] 
+[3.550s] 
+[3.552s] -- Configuring incomplete, errors occurred!
+[3.553s] See also "/root/motpy_pifpaf/build/motpy_pifpaf_msg/CMakeFiles/CMakeOutput.log".
+[3.570s] Invoked command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/motpy_pifpaf/src/motpy_pifpaf_msg -DCMAKE_INSTALL_PREFIX=/root/motpy_pifpaf/install/motpy_pifpaf_msg

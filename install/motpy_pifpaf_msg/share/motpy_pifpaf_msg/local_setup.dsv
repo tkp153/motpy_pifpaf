@@ -1,0 +1,4 @@
+source;share/motpy_pifpaf_msg/environment/ament_prefix_path.sh
+source;share/motpy_pifpaf_msg/environment/library_path.sh
+source;share/motpy_pifpaf_msg/environment/path.sh
+source;share/motpy_pifpaf_msg/environment/pythonpath.sh

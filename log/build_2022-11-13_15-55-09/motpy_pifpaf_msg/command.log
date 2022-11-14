@@ -1,0 +1,2 @@
+Invoking command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/motpy_pifpaf/build/motpy_pifpaf_msg -- -j12 -l12
+Invoked command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/motpy_pifpaf/build/motpy_pifpaf_msg -- -j12 -l12

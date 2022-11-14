@@ -1,0 +1,66 @@
+In file included from [01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.h:19[m[K,
+                 from [01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:4[m[K:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__struct.h:32:3:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__Sequence[m[K’
+   32 |   [01;31m[Kmotpy_pifpaf_msg__msg__Poses__Sequence[m[K poses;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:[m[K In function ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__init[m[K’:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:35:53:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__Sequence__init[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+   35 |   if (!motpy_pifpaf_msg__msg__Poses__Sequence__init([01;35m[K&msg->poses[m[K, 0)) {
+      |                                                     [01;35m[K^~~~~~~~~~~[m[K
+      |                                                     [01;35m[K|[m[K
+      |                                                     [01;35m[Kint *[m[K
+In file included from [01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:4[m[K:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.h:109:87:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__Sequence *[m[K’ {aka ‘[01m[Kstruct motpy_pifpaf_msg__msg__Poses__Sequence *[m[K’} but argument is of type ‘[01m[Kint *[m[K’
+  109 | motpy_pifpaf_msg__msg__Poses__Sequence__init([01;36m[Kmotpy_pifpaf_msg__msg__Poses__Sequence * array[m[K, size_t size);
+      |                                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:[m[K In function ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__fini[m[K’:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:56:48:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__Sequence__fini[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+   56 |   motpy_pifpaf_msg__msg__Poses__Sequence__fini([01;35m[K&msg->poses[m[K);
+      |                                                [01;35m[K^~~~~~~~~~~[m[K
+      |                                                [01;35m[K|[m[K
+      |                                                [01;35m[Kint *[m[K
+In file included from [01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:4[m[K:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.h:121:87:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__Sequence *[m[K’ {aka ‘[01m[Kstruct motpy_pifpaf_msg__msg__Poses__Sequence *[m[K’} but argument is of type ‘[01m[Kint *[m[K’
+  121 | motpy_pifpaf_msg__msg__Poses__Sequence__fini([01;36m[Kmotpy_pifpaf_msg__msg__Poses__Sequence * array[m[K);
+      |                                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:[m[K In function ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__are_equal[m[K’:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:75:7:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__Sequence__are_equal[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+   75 |       [01;35m[K&(lhs->poses)[m[K, &(rhs->poses)))
+      |       [01;35m[K^~~~~~~~~~~~~[m[K
+      |       [01;35m[K|[m[K
+      |       [01;35m[Kconst int *[m[K
+In file included from [01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:4[m[K:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.h:154:98:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kconst motpy_pifpaf_msg__msg__Poses__Sequence *[m[K’ {aka ‘[01m[Kconst struct motpy_pifpaf_msg__msg__Poses__Sequence *[m[K’} but argument is of type ‘[01m[Kconst int *[m[K’
+  154 | motpy_pifpaf_msg__msg__Poses__Sequence__are_equal([01;36m[Kconst motpy_pifpaf_msg__msg__Poses__Sequence * lhs[m[K, const motpy_pifpaf_msg__msg__Poses__Sequence * rhs);
+      |                                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:75:22:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__Sequence__are_equal[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+   75 |       &(lhs->poses), [01;35m[K&(rhs->poses)[m[K))
+      |                      [01;35m[K^~~~~~~~~~~~~[m[K
+      |                      [01;35m[K|[m[K
+      |                      [01;35m[Kconst int *[m[K
+In file included from [01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:4[m[K:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.h:154:150:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kconst motpy_pifpaf_msg__msg__Poses__Sequence *[m[K’ {aka ‘[01m[Kconst struct motpy_pifpaf_msg__msg__Poses__Sequence *[m[K’} but argument is of type ‘[01m[Kconst int *[m[K’
+  154 | motpy_pifpaf_msg__msg__Poses__Sequence__are_equal(const motpy_pifpaf_msg__msg__Poses__Sequence * lhs, [01;36m[Kconst motpy_pifpaf_msg__msg__Poses__Sequence * rhs[m[K);
+      |                                                                                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:[m[K In function ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__copy[m[K’:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:104:7:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__Sequence__copy[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+  104 |       [01;35m[K&(input->poses)[m[K, &(output->poses)))
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+      |       [01;35m[K|[m[K
+      |       [01;35m[Kconst int *[m[K
+In file included from [01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:4[m[K:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.h:170:50:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kconst motpy_pifpaf_msg__msg__Poses__Sequence *[m[K’ {aka ‘[01m[Kconst struct motpy_pifpaf_msg__msg__Poses__Sequence *[m[K’} but argument is of type ‘[01m[Kconst int *[m[K’
+  170 |   [01;36m[Kconst motpy_pifpaf_msg__msg__Poses__Sequence * input[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:104:24:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__Sequence__copy[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+  104 |       &(input->poses), [01;35m[K&(output->poses)[m[K))
+      |                        [01;35m[K^~~~~~~~~~~~~~~~[m[K
+      |                        [01;35m[K|[m[K
+      |                        [01;35m[Kint *[m[K
+In file included from [01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c:4[m[K:
+[01m[K/root/motpy_pifpaf/build/motpy_pifpaf_msg/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.h:171:44:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kmotpy_pifpaf_msg__msg__Poses__Sequence *[m[K’ {aka ‘[01m[Kstruct motpy_pifpaf_msg__msg__Poses__Sequence *[m[K’} but argument is of type ‘[01m[Kint *[m[K’
+  171 |   [01;36m[Kmotpy_pifpaf_msg__msg__Poses__Sequence * output[m[K);
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+make[2]: *** [CMakeFiles/motpy_pifpaf_msg__rosidl_generator_c.dir/build.make:193: CMakeFiles/motpy_pifpaf_msg__rosidl_generator_c.dir/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:332: CMakeFiles/motpy_pifpaf_msg__rosidl_generator_c.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

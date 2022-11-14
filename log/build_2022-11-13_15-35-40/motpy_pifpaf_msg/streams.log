@@ -1,0 +1,32 @@
+[0.857s] Invoking command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/motpy_pifpaf/src/motpy_pifpaf_msg -DCMAKE_INSTALL_PREFIX=/root/motpy_pifpaf/install/motpy_pifpaf_msg
+[0.929s] CMake Warning (dev) at CMakeLists.txt:31:
+[0.930s]   Syntax Warning in cmake code at column 19
+[0.930s] 
+[0.930s]   Argument not separated from preceding token by whitespace.
+[0.930s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.930s] 
+[0.931s] CMake Warning (dev) at CMakeLists.txt:32:
+[0.931s]   Syntax Warning in cmake code at column 20
+[0.931s] 
+[0.931s]   Argument not separated from preceding token by whitespace.
+[0.932s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.932s] 
+[0.932s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.982s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.592s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.599s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.825s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.324s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.437s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.798s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.312s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.395s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.743s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[4.053s] CMake Error at CMakeLists.txt:39 (rosidl_default_generators):
+[4.054s]   Unknown CMake command "rosidl_default_generators".
+[4.054s] 
+[4.054s] 
+[4.059s] -- Configuring incomplete, errors occurred!
+[4.059s] See also "/root/motpy_pifpaf/build/motpy_pifpaf_msg/CMakeFiles/CMakeOutput.log".
+[4.081s] Invoked command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/motpy_pifpaf/src/motpy_pifpaf_msg -DCMAKE_INSTALL_PREFIX=/root/motpy_pifpaf/install/motpy_pifpaf_msg

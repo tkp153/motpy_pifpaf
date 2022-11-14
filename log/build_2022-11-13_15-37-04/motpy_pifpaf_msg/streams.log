@@ -1,0 +1,18 @@
+[0.913s] Invoking command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/motpy_pifpaf/src/motpy_pifpaf_msg -DCMAKE_INSTALL_PREFIX=/root/motpy_pifpaf/install/motpy_pifpaf_msg
+[0.966s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.021s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.603s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.606s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.730s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.737s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.760s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.001s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[3.336s] CMake Error at CMakeLists.txt:39 (rosidl_generator_interfaces):
+[3.336s]   Unknown CMake command "rosidl_generator_interfaces".
+[3.336s] 
+[3.336s] 
+[3.340s] -- Configuring incomplete, errors occurred!
+[3.340s] See also "/root/motpy_pifpaf/build/motpy_pifpaf_msg/CMakeFiles/CMakeOutput.log".
+[3.369s] Invoked command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/motpy_pifpaf/src/motpy_pifpaf_msg -DCMAKE_INSTALL_PREFIX=/root/motpy_pifpaf/install/motpy_pifpaf_msg

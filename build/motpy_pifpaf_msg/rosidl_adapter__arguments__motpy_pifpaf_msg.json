@@ -1,0 +1,7 @@
+{
+  "package_name": "motpy_pifpaf_msg",
+  "non_idl_tuples": [
+    "/root/motpy_pifpaf/src/motpy_pifpaf_msg:msg/Pose.msg",
+    "/root/motpy_pifpaf/src/motpy_pifpaf_msg:msg/Poses.msg"
+  ]
+}

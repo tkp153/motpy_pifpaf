@@ -1,0 +1,16 @@
+CMake Warning (dev) at CMakeLists.txt:31:
+  Syntax Warning in cmake code at column 19
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:32:
+  Syntax Warning in cmake code at column 20
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at CMakeLists.txt:39 (rosidl_default_generators):
+  Unknown CMake command "rosidl_default_generators".
+
+

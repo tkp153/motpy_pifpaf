@@ -1,0 +1,588 @@
+[0.000000] (-) TimerEvent: {}
+[0.000232] (motpy_pifpaf) JobQueued: {'identifier': 'motpy_pifpaf', 'dependencies': OrderedDict()}
+[0.000334] (motpy_pifpaf_msg) JobQueued: {'identifier': 'motpy_pifpaf_msg', 'dependencies': OrderedDict()}
+[0.000421] (motpy_pifpaf) JobStarted: {'identifier': 'motpy_pifpaf'}
+[0.043904] (motpy_pifpaf_msg) JobStarted: {'identifier': 'motpy_pifpaf_msg'}
+[0.095150] (-) TimerEvent: {}
+[0.196873] (-) TimerEvent: {}
+[0.297519] (-) TimerEvent: {}
+[0.398481] (-) TimerEvent: {}
+[0.499411] (-) TimerEvent: {}
+[0.601957] (-) TimerEvent: {}
+[0.702291] (-) TimerEvent: {}
+[0.802622] (-) TimerEvent: {}
+[0.892508] (motpy_pifpaf_msg) JobProgress: {'identifier': 'motpy_pifpaf_msg', 'progress': 'cmake'}
+[0.892668] (motpy_pifpaf_msg) JobProgress: {'identifier': 'motpy_pifpaf_msg', 'progress': 'build'}
+[0.892732] (motpy_pifpaf_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/motpy_pifpaf/build/motpy_pifpaf_msg', '--', '-j12', '-l12'], 'cwd': '/root/motpy_pifpaf/build/motpy_pifpaf_msg', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NV_LIBCUBLAS_VERSION', '11.4.2.10064-1'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NVIDIA_DRIVERS_CAPABILITIES', 'all'), ('COLORTERM', 'truecolor'), ('NV_NVML_DEV_VERSION', '11.3.58-1'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.9.6-1+cuda11.3'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.9.6-1'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'tkp153-P65-Creator-8RE'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.3 brand=tesla,driver>=418,driver<419 driver>=450'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-434243b79f9abc5758b2a5280d3a93188d571e3a.sock'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-3=11.4.2.10064-1'), ('NV_NVTX_VERSION', '11.3.58-1'), ('NV_CUDA_CUDART_DEV_VERSION', '11.3.58-1'), ('APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE', '1'), ('NV_LIBCUSPARSE_VERSION', '11.5.0.58-1'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-434243b79f9abc5758b2a5280d3a93188d571e3a.sock'), ('NV_LIBNPP_VERSION', '11.3.3.44-1'), ('NCCL_VERSION', '2.9.6-1'), ('PWD', '/root/motpy_pifpaf/build/motpy_pifpaf_msg'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.2.0.53-1+cuda11.3'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-3=11.3.58-1'), ('ROS_DOMAIN_ID', '30'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-3=11.3.3.44-1'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('TZ', 'Asia/Tokyo'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('NV_LIBCUBLAS_DEV_VERSION', '11.4.2.10064-1'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-3'), ('NV_CUDA_CUDART_VERSION', '11.3.58-1'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('REMOTE_CONTAINERS', 'true'), ('CUDA_VERSION', '11.3.0'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-3=11.4.2.10064-1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('COLCON_PREFIX_PATH', '/root/colcon_ws/install'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-3=11.3.3.44-1'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-3'), ('NV_LIBNPP_DEV_VERSION', '11.3.3.44-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.5.0.58-1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-434243b79f9abc5758b2a5280d3a93188d571e3a.sock","/root/.gnupg/S.gpg-agent"]'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_CUDNN_VERSION', '8.2.0.53'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f50a77d273.sock'), ('DISPLAY', ':1'), ('SHLVL', '3'), ('NV_CUDA_LIB_VERSION', '11.3.0-1'), ('NVARCH', 'x86_64'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.2.0.53-1+cuda11.3'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-3'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.9.6-1+cuda11.3'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.3.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('ROS_LOCALHOST_ONLY', '0'), ('NV_NVPROF_VERSION', '11.3.58-1'), ('LC_ALL', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('BROWSER', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/helpers/browser.sh'), ('PATH', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:= /usr/local/11.3.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.9.6-1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/root/motpy_pifpaf/src'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a889e6ca-e895-469c-a044-daf14b838225.sock'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.902982] (-) TimerEvent: {}
+[1.003940] (-) TimerEvent: {}
+[1.017138] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.076901] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.077278] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.104002] (-) TimerEvent: {}
+[1.204977] (-) TimerEvent: {}
+[1.305932] (-) TimerEvent: {}
+[1.406906] (-) TimerEvent: {}
+[1.507899] (-) TimerEvent: {}
+[1.552157] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.608000] (-) TimerEvent: {}
+[1.610388] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.621212] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.708095] (-) TimerEvent: {}
+[1.808485] (-) TimerEvent: {}
+[1.908879] (-) TimerEvent: {}
+[2.009250] (-) TimerEvent: {}
+[2.015869] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.109361] (-) TimerEvent: {}
+[2.117021] (motpy_pifpaf) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/motpy_pifpaf', 'build', '--build-base', '/root/motpy_pifpaf/build/motpy_pifpaf/build', 'install', '--prefix', '/root/motpy_pifpaf/install/motpy_pifpaf', '--record', '/root/motpy_pifpaf/build/motpy_pifpaf/install.log', '--single-version-externally-managed'], 'cwd': '/root/motpy_pifpaf/src/motpy_pifpaf', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'NV_LIBCUBLAS_VERSION': '11.4.2.10064-1', 'NVIDIA_VISIBLE_DEVICES': 'all', 'NVIDIA_DRIVERS_CAPABILITIES': 'all', 'COLORTERM': 'truecolor', 'NV_NVML_DEV_VERSION': '11.3.58-1', 'NV_CUDNN_PACKAGE_NAME': 'libcudnn8', 'TERM_PROGRAM_VERSION': '1.73.1', 'NV_LIBNCCL_DEV_PACKAGE': 'libnccl-dev=2.9.6-1+cuda11.3', 'NV_LIBNCCL_DEV_PACKAGE_VERSION': '2.9.6-1', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'tkp153-P65-Creator-8RE', 'NVIDIA_REQUIRE_CUDA': 'cuda>=11.3 brand=tesla,driver>=418,driver<419 driver>=450', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-434243b79f9abc5758b2a5280d3a93188d571e3a.sock', 'NV_LIBCUBLAS_DEV_PACKAGE': 'libcublas-dev-11-3=11.4.2.10064-1', 'NV_NVTX_VERSION': '11.3.58-1', 'NV_CUDA_CUDART_DEV_VERSION': '11.3.58-1', 'APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE': '1', 'NV_LIBCUSPARSE_VERSION': '11.5.0.58-1', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-434243b79f9abc5758b2a5280d3a93188d571e3a.sock', 'NV_LIBNPP_VERSION': '11.3.3.44-1', 'NCCL_VERSION': '2.9.6-1', 'PWD': '/root/motpy_pifpaf/build/motpy_pifpaf', 'NV_CUDNN_PACKAGE': 'libcudnn8=8.2.0.53-1+cuda11.3', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'NV_NVPROF_DEV_PACKAGE': 'cuda-nvprof-11-3=11.3.58-1', 'ROS_DOMAIN_ID': '30', 'NV_LIBNPP_PACKAGE': 'libnpp-11-3=11.3.3.44-1', 'NV_LIBNCCL_DEV_PACKAGE_NAME': 'libnccl-dev', 'TZ': 'Asia/Tokyo', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node', 'NV_LIBCUBLAS_DEV_VERSION': '11.4.2.10064-1', 'NV_LIBCUBLAS_DEV_PACKAGE_NAME': 'libcublas-dev-11-3', 'NV_CUDA_CUDART_VERSION': '11.3.58-1', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'REMOTE_CONTAINERS': 'true', 'CUDA_VERSION': '11.3.0', 'NV_LIBCUBLAS_PACKAGE': 'libcublas-11-3=11.4.2.10064-1', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'GIT_ASKPASS': '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh', 'COLCON_PREFIX_PATH': '/root/colcon_ws/install', 'NV_LIBNPP_DEV_PACKAGE': 'libnpp-dev-11-3=11.3.3.44-1', 'NV_LIBCUBLAS_PACKAGE_NAME': 'libcublas-11-3', 'NV_LIBNPP_DEV_VERSION': '11.3.3.44-1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PYTHONPATH': '/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', 'NV_LIBCUSPARSE_DEV_VERSION': '11.5.0.58-1', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-434243b79f9abc5758b2a5280d3a93188d571e3a.sock","/root/.gnupg/S.gpg-agent"]', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'NV_CUDNN_VERSION': '8.2.0.53', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-f50a77d273.sock', 'DISPLAY': ':1', 'SHLVL': '3', 'NV_CUDA_LIB_VERSION': '11.3.0-1', 'NVARCH': 'x86_64', 'NV_CUDNN_PACKAGE_DEV': 'libcudnn8-dev=8.2.0.53-1+cuda11.3', 'NV_CUDA_COMPAT_PACKAGE': 'cuda-compat-11-3', 'NV_LIBNCCL_PACKAGE': 'libnccl2=2.9.6-1+cuda11.3', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.3.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'ROS_LOCALHOST_ONLY': '0', 'NV_NVPROF_VERSION': '11.3.58-1', 'LC_ALL': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js', 'BROWSER': '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/helpers/browser.sh', 'PATH': '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:= /usr/local/11.3.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NV_LIBNCCL_PACKAGE_NAME': 'libnccl2', 'NV_LIBNCCL_PACKAGE_VERSION': '2.9.6-1', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'foxy', 'OLDPWD': '/root/motpy_pifpaf/src', 'TERM_PROGRAM': 'vscode', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-a889e6ca-e895-469c-a044-daf14b838225.sock', '_': '/usr/bin/env'}, 'shell': False}
+[2.209481] (-) TimerEvent: {}
+[2.240548] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.264562] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.309578] (-) TimerEvent: {}
+[2.409942] (-) TimerEvent: {}
+[2.488977] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[2.510045] (-) TimerEvent: {}
+[2.610471] (-) TimerEvent: {}
+[2.710820] (-) TimerEvent: {}
+[2.811900] (-) TimerEvent: {}
+[2.817322] (motpy_pifpaf) StdoutLine: {'line': b'running egg_info\n'}
+[2.819246] (motpy_pifpaf) StdoutLine: {'line': b'writing ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/PKG-INFO\n'}
+[2.820405] (motpy_pifpaf) StdoutLine: {'line': b'writing dependency_links to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/dependency_links.txt\n'}
+[2.821326] (motpy_pifpaf) StdoutLine: {'line': b'writing entry points to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/entry_points.txt\n'}
+[2.822185] (motpy_pifpaf) StdoutLine: {'line': b'writing requirements to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/requires.txt\n'}
+[2.822921] (motpy_pifpaf) StdoutLine: {'line': b'writing top-level names to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/top_level.txt\n'}
+[2.870291] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.912000] (-) TimerEvent: {}
+[2.936386] (motpy_pifpaf) StdoutLine: {'line': b"reading manifest file '../../build/motpy_pifpaf/motpy_pifpaf.egg-info/SOURCES.txt'\n"}
+[2.939538] (motpy_pifpaf) StdoutLine: {'line': b"writing manifest file '../../build/motpy_pifpaf/motpy_pifpaf.egg-info/SOURCES.txt'\n"}
+[2.940305] (motpy_pifpaf) StdoutLine: {'line': b'running build\n'}
+[2.940787] (motpy_pifpaf) StdoutLine: {'line': b'running build_py\n'}
+[2.941852] (motpy_pifpaf) StdoutLine: {'line': b'running install\n'}
+[2.944171] (motpy_pifpaf) StdoutLine: {'line': b'running install_lib\n'}
+[2.948389] (motpy_pifpaf) StdoutLine: {'line': b'running install_data\n'}
+[2.950274] (motpy_pifpaf) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.954474] (motpy_pifpaf) StdoutLine: {'line': b"removing '/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.962785] (motpy_pifpaf) StdoutLine: {'line': b'Copying ../../build/motpy_pifpaf/motpy_pifpaf.egg-info to /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf-0.0.0-py3.8.egg-info\n'}
+[2.981500] (motpy_pifpaf) StdoutLine: {'line': b'running install_scripts\n'}
+[3.012095] (-) TimerEvent: {}
+[3.037873] (motpy_pifpaf) StdoutLine: {'line': b'Installing motpy_pifpaf script to /root/motpy_pifpaf/install/motpy_pifpaf/lib/motpy_pifpaf\n'}
+[3.038438] (motpy_pifpaf) StdoutLine: {'line': b"writing list of installed files to '/root/motpy_pifpaf/build/motpy_pifpaf/install.log'\n"}
+[3.074141] (motpy_pifpaf) CommandEnded: {'returncode': 0}
+[3.109327] (motpy_pifpaf) JobEnded: {'identifier': 'motpy_pifpaf', 'rc': 0}
+[3.112196] (-) TimerEvent: {}
+[3.212535] (-) TimerEvent: {}
+[3.312854] (-) TimerEvent: {}
+[3.413174] (-) TimerEvent: {}
+[3.427883] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.513279] (-) TimerEvent: {}
+[3.613636] (-) TimerEvent: {}
+[3.713987] (-) TimerEvent: {}
+[3.814351] (-) TimerEvent: {}
+[3.914848] (-) TimerEvent: {}
+[4.015256] (-) TimerEvent: {}
+[4.115648] (-) TimerEvent: {}
+[4.216042] (-) TimerEvent: {}
+[4.316996] (-) TimerEvent: {}
+[4.347003] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.417105] (-) TimerEvent: {}
+[4.518431] (-) TimerEvent: {}
+[4.618768] (-) TimerEvent: {}
+[4.719124] (-) TimerEvent: {}
+[4.820690] (-) TimerEvent: {}
+[4.848726] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.920783] (-) TimerEvent: {}
+[4.982755] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.983549] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[5.020884] (-) TimerEvent: {}
+[5.060159] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.060595] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[5.060859] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[5.120994] (-) TimerEvent: {}
+[5.221410] (-) TimerEvent: {}
+[5.321842] (-) TimerEvent: {}
+[5.335627] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.369589] (motpy_pifpaf_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.375167] (motpy_pifpaf_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.378914] (motpy_pifpaf_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.392704] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.421950] (-) TimerEvent: {}
+[5.523256] (-) TimerEvent: {}
+[5.624313] (-) TimerEvent: {}
+[5.681204] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[5.693421] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Build files have been written to: /root/motpy_pifpaf/build/motpy_pifpaf_msg\n'}
+[5.724422] (-) TimerEvent: {}
+[5.825710] (-) TimerEvent: {}
+[5.873005] (motpy_pifpaf_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.925816] (-) TimerEvent: {}
+[6.026200] (-) TimerEvent: {}
+[6.126532] (-) TimerEvent: {}
+[6.226858] (-) TimerEvent: {}
+[6.327178] (-) TimerEvent: {}
+[6.427504] (-) TimerEvent: {}
+[6.527844] (-) TimerEvent: {}
+[6.628192] (-) TimerEvent: {}
+[6.728549] (-) TimerEvent: {}
+[6.828896] (-) TimerEvent: {}
+[6.863517] (motpy_pifpaf_msg) StdoutLine: {'line': b'[  2%] Built target motpy_pifpaf_msg__cpp\n'}
+[6.929003] (-) TimerEvent: {}
+[6.929981] (motpy_pifpaf_msg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.029101] (-) TimerEvent: {}
+[7.129489] (-) TimerEvent: {}
+[7.229850] (-) TimerEvent: {}
+[7.330199] (-) TimerEvent: {}
+[7.430553] (-) TimerEvent: {}
+[7.531414] (-) TimerEvent: {}
+[7.631801] (-) TimerEvent: {}
+[7.732144] (-) TimerEvent: {}
+[7.839510] (-) TimerEvent: {}
+[7.940499] (-) TimerEvent: {}
+[7.990970] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__rosidl_generator_c\x1b[0m\n'}
+[8.027540] (motpy_pifpaf_msg) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/motpy_pifpaf_msg__rosidl_generator_c.dir/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[8.040604] (-) TimerEvent: {}
+[8.141011] (-) TimerEvent: {}
+[8.143283] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/motpy_pifpaf_msg__rosidl_generator_c.dir/rosidl_generator_c/motpy_pifpaf_msg/msg/detail/poses__functions.c.o\x1b[0m\n'}
+[8.241115] (-) TimerEvent: {}
+[8.334619] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libmotpy_pifpaf_msg__rosidl_generator_c.so\x1b[0m\n'}
+[8.341202] (-) TimerEvent: {}
+[8.441576] (-) TimerEvent: {}
+[8.542418] (-) TimerEvent: {}
+[8.604835] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 12%] Built target motpy_pifpaf_msg__rosidl_generator_c\n'}
+[8.642533] (-) TimerEvent: {}
+[8.669348] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.742633] (-) TimerEvent: {}
+[8.843033] (-) TimerEvent: {}
+[8.944301] (-) TimerEvent: {}
+[9.045310] (-) TimerEvent: {}
+[9.145870] (-) TimerEvent: {}
+[9.246247] (-) TimerEvent: {}
+[9.346690] (-) TimerEvent: {}
+[9.447060] (-) TimerEvent: {}
+[9.547590] (-) TimerEvent: {}
+[9.648011] (-) TimerEvent: {}
+[9.677021] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.748122] (-) TimerEvent: {}
+[9.793552] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motpy_pifpaf_msg/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[9.848229] (-) TimerEvent: {}
+[9.949376] (-) TimerEvent: {}
+[10.050930] (-) TimerEvent: {}
+[10.152092] (-) TimerEvent: {}
+[10.252919] (-) TimerEvent: {}
+[10.353327] (-) TimerEvent: {}
+[10.453748] (-) TimerEvent: {}
+[10.554157] (-) TimerEvent: {}
+[10.654493] (-) TimerEvent: {}
+[10.754910] (-) TimerEvent: {}
+[10.855328] (-) TimerEvent: {}
+[10.955737] (-) TimerEvent: {}
+[11.056123] (-) TimerEvent: {}
+[11.156514] (-) TimerEvent: {}
+[11.259510] (-) TimerEvent: {}
+[11.352800] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motpy_pifpaf_msg/msg/detail/dds_fastrtps/poses__type_support.cpp.o\x1b[0m\n'}
+[11.359602] (-) TimerEvent: {}
+[11.459976] (-) TimerEvent: {}
+[11.560376] (-) TimerEvent: {}
+[11.661205] (-) TimerEvent: {}
+[11.762311] (-) TimerEvent: {}
+[11.863142] (-) TimerEvent: {}
+[11.963513] (-) TimerEvent: {}
+[12.064318] (-) TimerEvent: {}
+[12.165382] (-) TimerEvent: {}
+[12.265781] (-) TimerEvent: {}
+[12.366206] (-) TimerEvent: {}
+[12.466644] (-) TimerEvent: {}
+[12.567052] (-) TimerEvent: {}
+[12.667476] (-) TimerEvent: {}
+[12.668110] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libmotpy_pifpaf_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.767583] (-) TimerEvent: {}
+[12.868005] (-) TimerEvent: {}
+[12.979569] (-) TimerEvent: {}
+[13.079938] (-) TimerEvent: {}
+[13.171436] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 23%] Built target motpy_pifpaf_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[13.180046] (-) TimerEvent: {}
+[13.235859] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.280143] (-) TimerEvent: {}
+[13.380467] (-) TimerEvent: {}
+[13.480813] (-) TimerEvent: {}
+[13.581864] (-) TimerEvent: {}
+[13.682939] (-) TimerEvent: {}
+[13.783272] (-) TimerEvent: {}
+[13.883656] (-) TimerEvent: {}
+[13.991570] (-) TimerEvent: {}
+[14.091928] (-) TimerEvent: {}
+[14.170623] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__rosidl_typesupport_c\x1b[0m\n'}
+[14.192046] (-) TimerEvent: {}
+[14.197313] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/motpy_pifpaf_msg/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[14.262185] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/motpy_pifpaf_msg/msg/poses__type_support.cpp.o\x1b[0m\n'}
+[14.292154] (-) TimerEvent: {}
+[14.324373] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libmotpy_pifpaf_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.392265] (-) TimerEvent: {}
+[14.492647] (-) TimerEvent: {}
+[14.547918] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 33%] Built target motpy_pifpaf_msg__rosidl_typesupport_c\n'}
+[14.572629] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.592745] (-) TimerEvent: {}
+[14.693109] (-) TimerEvent: {}
+[14.793422] (-) TimerEvent: {}
+[14.893777] (-) TimerEvent: {}
+[14.994114] (-) TimerEvent: {}
+[15.094467] (-) TimerEvent: {}
+[15.194862] (-) TimerEvent: {}
+[15.288220] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[15.294951] (-) TimerEvent: {}
+[15.386971] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motpy_pifpaf_msg/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[15.395046] (-) TimerEvent: {}
+[15.495411] (-) TimerEvent: {}
+[15.596457] (-) TimerEvent: {}
+[15.697510] (-) TimerEvent: {}
+[15.798705] (-) TimerEvent: {}
+[15.899937] (-) TimerEvent: {}
+[16.001288] (-) TimerEvent: {}
+[16.102369] (-) TimerEvent: {}
+[16.203581] (-) TimerEvent: {}
+[16.304639] (-) TimerEvent: {}
+[16.386249] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motpy_pifpaf_msg/msg/detail/poses__type_support_c.cpp.o\x1b[0m\n'}
+[16.404742] (-) TimerEvent: {}
+[16.505121] (-) TimerEvent: {}
+[16.605575] (-) TimerEvent: {}
+[16.706021] (-) TimerEvent: {}
+[16.815507] (-) TimerEvent: {}
+[16.916540] (-) TimerEvent: {}
+[17.017654] (-) TimerEvent: {}
+[17.118707] (-) TimerEvent: {}
+[17.219709] (-) TimerEvent: {}
+[17.321960] (-) TimerEvent: {}
+[17.422992] (-) TimerEvent: {}
+[17.439163] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libmotpy_pifpaf_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.523101] (-) TimerEvent: {}
+[17.623491] (-) TimerEvent: {}
+[17.697516] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 43%] Built target motpy_pifpaf_msg__rosidl_typesupport_fastrtps_c\n'}
+[17.723598] (-) TimerEvent: {}
+[17.732215] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[17.823694] (-) TimerEvent: {}
+[17.924761] (-) TimerEvent: {}
+[18.025160] (-) TimerEvent: {}
+[18.126470] (-) TimerEvent: {}
+[18.227507] (-) TimerEvent: {}
+[18.328574] (-) TimerEvent: {}
+[18.429654] (-) TimerEvent: {}
+[18.530694] (-) TimerEvent: {}
+[18.631061] (-) TimerEvent: {}
+[18.731461] (-) TimerEvent: {}
+[18.831883] (-) TimerEvent: {}
+[18.932301] (-) TimerEvent: {}
+[19.027594] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[19.032386] (-) TimerEvent: {}
+[19.099068] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motpy_pifpaf_msg/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[19.132500] (-) TimerEvent: {}
+[19.232900] (-) TimerEvent: {}
+[19.317107] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motpy_pifpaf_msg/msg/detail/poses__type_support.c.o\x1b[0m\n'}
+[19.334090] (-) TimerEvent: {}
+[19.394053] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libmotpy_pifpaf_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[19.434201] (-) TimerEvent: {}
+[19.496373] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 53%] Built target motpy_pifpaf_msg__rosidl_typesupport_introspection_c\n'}
+[19.521012] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.534299] (-) TimerEvent: {}
+[19.634681] (-) TimerEvent: {}
+[19.735069] (-) TimerEvent: {}
+[19.835462] (-) TimerEvent: {}
+[19.936427] (-) TimerEvent: {}
+[20.037418] (-) TimerEvent: {}
+[20.138649] (-) TimerEvent: {}
+[20.239873] (-) TimerEvent: {}
+[20.340896] (-) TimerEvent: {}
+[20.441344] (-) TimerEvent: {}
+[20.541739] (-) TimerEvent: {}
+[20.583894] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[20.641854] (-) TimerEvent: {}
+[20.686328] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motpy_pifpaf_msg/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[20.741960] (-) TimerEvent: {}
+[20.842357] (-) TimerEvent: {}
+[20.942699] (-) TimerEvent: {}
+[21.043671] (-) TimerEvent: {}
+[21.144016] (-) TimerEvent: {}
+[21.244373] (-) TimerEvent: {}
+[21.344756] (-) TimerEvent: {}
+[21.445831] (-) TimerEvent: {}
+[21.546752] (-) TimerEvent: {}
+[21.549031] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motpy_pifpaf_msg/msg/poses__type_support.cpp.o\x1b[0m\n'}
+[21.646865] (-) TimerEvent: {}
+[21.747941] (-) TimerEvent: {}
+[21.848972] (-) TimerEvent: {}
+[21.949953] (-) TimerEvent: {}
+[22.050959] (-) TimerEvent: {}
+[22.159508] (-) TimerEvent: {}
+[22.260729] (-) TimerEvent: {}
+[22.325236] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmotpy_pifpaf_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[22.360842] (-) TimerEvent: {}
+[22.461273] (-) TimerEvent: {}
+[22.562457] (-) TimerEvent: {}
+[22.592619] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 64%] Built target motpy_pifpaf_msg__rosidl_typesupport_cpp\n'}
+[22.658887] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[22.662539] (-) TimerEvent: {}
+[22.762880] (-) TimerEvent: {}
+[22.863264] (-) TimerEvent: {}
+[22.963626] (-) TimerEvent: {}
+[23.063980] (-) TimerEvent: {}
+[23.164346] (-) TimerEvent: {}
+[23.265049] (-) TimerEvent: {}
+[23.365776] (-) TimerEvent: {}
+[23.466532] (-) TimerEvent: {}
+[23.567303] (-) TimerEvent: {}
+[23.668071] (-) TimerEvent: {}
+[23.770264] (-) TimerEvent: {}
+[23.780026] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[23.870384] (-) TimerEvent: {}
+[23.892872] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motpy_pifpaf_msg/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[23.970495] (-) TimerEvent: {}
+[24.071627] (-) TimerEvent: {}
+[24.172212] (-) TimerEvent: {}
+[24.273321] (-) TimerEvent: {}
+[24.374341] (-) TimerEvent: {}
+[24.475490] (-) TimerEvent: {}
+[24.576528] (-) TimerEvent: {}
+[24.677537] (-) TimerEvent: {}
+[24.777954] (-) TimerEvent: {}
+[24.839190] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motpy_pifpaf_msg/msg/detail/poses__type_support.cpp.o\x1b[0m\n'}
+[24.878058] (-) TimerEvent: {}
+[24.978409] (-) TimerEvent: {}
+[25.078758] (-) TimerEvent: {}
+[25.179112] (-) TimerEvent: {}
+[25.279477] (-) TimerEvent: {}
+[25.379859] (-) TimerEvent: {}
+[25.480211] (-) TimerEvent: {}
+[25.580576] (-) TimerEvent: {}
+[25.637008] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmotpy_pifpaf_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[25.680685] (-) TimerEvent: {}
+[25.781035] (-) TimerEvent: {}
+[25.792258] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 74%] Built target motpy_pifpaf_msg__rosidl_typesupport_introspection_cpp\n'}
+[25.812615] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg\x1b[0m\n'}
+[25.835054] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 74%] Built target motpy_pifpaf_msg\n'}
+[25.858252] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__py\x1b[0m\n'}
+[25.881140] (-) TimerEvent: {}
+[25.883898] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.981237] (-) TimerEvent: {}
+[26.081567] (-) TimerEvent: {}
+[26.181900] (-) TimerEvent: {}
+[26.282244] (-) TimerEvent: {}
+[26.382612] (-) TimerEvent: {}
+[26.483010] (-) TimerEvent: {}
+[26.583368] (-) TimerEvent: {}
+[26.683721] (-) TimerEvent: {}
+[26.784095] (-) TimerEvent: {}
+[26.884465] (-) TimerEvent: {}
+[26.984910] (-) TimerEvent: {}
+[27.085605] (-) TimerEvent: {}
+[27.186299] (-) TimerEvent: {}
+[27.286984] (-) TimerEvent: {}
+[27.387311] (-) TimerEvent: {}
+[27.487979] (-) TimerEvent: {}
+[27.588615] (-) TimerEvent: {}
+[27.689546] (-) TimerEvent: {}
+[27.789898] (-) TimerEvent: {}
+[27.890262] (-) TimerEvent: {}
+[27.990666] (-) TimerEvent: {}
+[28.091046] (-) TimerEvent: {}
+[28.192118] (-) TimerEvent: {}
+[28.292833] (-) TimerEvent: {}
+[28.328116] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 76%] Built target motpy_pifpaf_msg__py\n'}
+[28.379525] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__python\x1b[0m\n'}
+[28.392928] (-) TimerEvent: {}
+[28.493963] (-) TimerEvent: {}
+[28.538430] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/motpy_pifpaf_msg__python.dir/rosidl_generator_py/motpy_pifpaf_msg/msg/_pose_s.c.o\x1b[0m\n'}
+[28.594066] (-) TimerEvent: {}
+[28.695342] (-) TimerEvent: {}
+[28.795696] (-) TimerEvent: {}
+[28.896690] (-) TimerEvent: {}
+[28.998011] (-) TimerEvent: {}
+[29.071376] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/motpy_pifpaf_msg__python.dir/rosidl_generator_py/motpy_pifpaf_msg/msg/_poses_s.c.o\x1b[0m\n'}
+[29.098126] (-) TimerEvent: {}
+[29.198486] (-) TimerEvent: {}
+[29.298855] (-) TimerEvent: {}
+[29.400392] (-) TimerEvent: {}
+[29.446285] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motpy_pifpaf_msg/libmotpy_pifpaf_msg__python.so\x1b[0m\n'}
+[29.500499] (-) TimerEvent: {}
+[29.601508] (-) TimerEvent: {}
+[29.694683] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 84%] Built target motpy_pifpaf_msg__python\n'}
+[29.701599] (-) TimerEvent: {}
+[29.763896] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[29.801704] (-) TimerEvent: {}
+[29.902439] (-) TimerEvent: {}
+[29.919830] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motpy_pifpaf_msg/_motpy_pifpaf_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[30.002924] (-) TimerEvent: {}
+[30.103997] (-) TimerEvent: {}
+[30.204424] (-) TimerEvent: {}
+[30.233211] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.304530] (-) TimerEvent: {}
+[30.345539] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 89%] Built target motpy_pifpaf_msg__rosidl_typesupport_c__pyext\n'}
+[30.368729] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[30.404636] (-) TimerEvent: {}
+[30.440776] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motpy_pifpaf_msg/_motpy_pifpaf_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[30.504749] (-) TimerEvent: {}
+[30.605142] (-) TimerEvent: {}
+[30.705559] (-) TimerEvent: {}
+[30.762289] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.805665] (-) TimerEvent: {}
+[30.906636] (-) TimerEvent: {}
+[30.980913] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 94%] Built target motpy_pifpaf_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[31.006749] (-) TimerEvent: {}
+[31.052431] (motpy_pifpaf_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motpy_pifpaf_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[31.106853] (-) TimerEvent: {}
+[31.165677] (motpy_pifpaf_msg) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/motpy_pifpaf_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motpy_pifpaf_msg/_motpy_pifpaf_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[31.206965] (-) TimerEvent: {}
+[31.307905] (-) TimerEvent: {}
+[31.408261] (-) TimerEvent: {}
+[31.414127] (motpy_pifpaf_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[31.508369] (-) TimerEvent: {}
+[31.610074] (-) TimerEvent: {}
+[31.711235] (-) TimerEvent: {}
+[31.791537] (motpy_pifpaf_msg) StdoutLine: {'line': b'[100%] Built target motpy_pifpaf_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[31.811352] (-) TimerEvent: {}
+[31.848182] (motpy_pifpaf_msg) CommandEnded: {'returncode': 0}
+[31.911535] (-) TimerEvent: {}
+[32.011981] (-) TimerEvent: {}
+[32.112414] (-) TimerEvent: {}
+[32.213136] (-) TimerEvent: {}
+[32.313830] (-) TimerEvent: {}
+[32.419534] (-) TimerEvent: {}
+[32.515929] (motpy_pifpaf_msg) JobProgress: {'identifier': 'motpy_pifpaf_msg', 'progress': 'install'}
+[32.519650] (-) TimerEvent: {}
+[32.575220] (motpy_pifpaf_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/motpy_pifpaf/build/motpy_pifpaf_msg'], 'cwd': '/root/motpy_pifpaf/build/motpy_pifpaf_msg', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NV_LIBCUBLAS_VERSION', '11.4.2.10064-1'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NVIDIA_DRIVERS_CAPABILITIES', 'all'), ('COLORTERM', 'truecolor'), ('NV_NVML_DEV_VERSION', '11.3.58-1'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.9.6-1+cuda11.3'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.9.6-1'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'tkp153-P65-Creator-8RE'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.3 brand=tesla,driver>=418,driver<419 driver>=450'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-434243b79f9abc5758b2a5280d3a93188d571e3a.sock'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-3=11.4.2.10064-1'), ('NV_NVTX_VERSION', '11.3.58-1'), ('NV_CUDA_CUDART_DEV_VERSION', '11.3.58-1'), ('APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE', '1'), ('NV_LIBCUSPARSE_VERSION', '11.5.0.58-1'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-434243b79f9abc5758b2a5280d3a93188d571e3a.sock'), ('NV_LIBNPP_VERSION', '11.3.3.44-1'), ('NCCL_VERSION', '2.9.6-1'), ('PWD', '/root/motpy_pifpaf/build/motpy_pifpaf_msg'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.2.0.53-1+cuda11.3'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-3=11.3.58-1'), ('ROS_DOMAIN_ID', '30'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-3=11.3.3.44-1'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('TZ', 'Asia/Tokyo'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('NV_LIBCUBLAS_DEV_VERSION', '11.4.2.10064-1'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-3'), ('NV_CUDA_CUDART_VERSION', '11.3.58-1'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('REMOTE_CONTAINERS', 'true'), ('CUDA_VERSION', '11.3.0'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-3=11.4.2.10064-1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('COLCON_PREFIX_PATH', '/root/colcon_ws/install'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-3=11.3.3.44-1'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-3'), ('NV_LIBNPP_DEV_VERSION', '11.3.3.44-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.5.0.58-1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-434243b79f9abc5758b2a5280d3a93188d571e3a.sock","/root/.gnupg/S.gpg-agent"]'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_CUDNN_VERSION', '8.2.0.53'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f50a77d273.sock'), ('DISPLAY', ':1'), ('SHLVL', '3'), ('NV_CUDA_LIB_VERSION', '11.3.0-1'), ('NVARCH', 'x86_64'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.2.0.53-1+cuda11.3'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-3'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.9.6-1+cuda11.3'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.3.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('ROS_LOCALHOST_ONLY', '0'), ('NV_NVPROF_VERSION', '11.3.58-1'), ('LC_ALL', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('BROWSER', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/helpers/browser.sh'), ('PATH', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:= /usr/local/11.3.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.9.6-1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/root/motpy_pifpaf/src'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a889e6ca-e895-469c-a044-daf14b838225.sock'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[32.619839] (-) TimerEvent: {}
+[32.631093] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.632403] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/ament_index/resource_index/rosidl_interfaces/motpy_pifpaf_msg\n'}
+[32.632703] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg\n'}
+[32.633158] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg\n'}
+[32.633698] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[32.634005] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/poses.h\n'}
+[32.634223] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail\n'}
+[32.634448] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__functions.h\n'}
+[32.634850] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__struct.h\n'}
+[32.635166] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__type_support.h\n'}
+[32.635381] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__type_support.h\n'}
+[32.635751] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__functions.c\n'}
+[32.651779] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__struct.h\n'}
+[32.652203] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__functions.c\n'}
+[32.652612] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__functions.h\n'}
+[32.653008] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/pose.h\n'}
+[32.653650] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/library_path.sh\n'}
+[32.654148] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/library_path.dsv\n'}
+[32.654794] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_generator_c.so\n'}
+[32.656021] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_generator_c.so" to ""\n'}
+[32.656384] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg\n'}
+[32.656689] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg\n'}
+[32.656978] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail\n'}
+[32.657205] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__rosidl_typesupport_fastrtps_c.h\n'}
+[32.657598] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[32.657894] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[32.658429] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[32.660117] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[32.660473] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg\n'}
+[32.660792] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg\n'}
+[32.661153] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail\n'}
+[32.661374] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.661649] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.661937] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/dds_fastrtps\n'}
+[32.662238] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[32.663164] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[32.664871] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[32.665376] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg\n'}
+[32.665779] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg\n'}
+[32.666170] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail\n'}
+[32.666622] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[32.667294] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__type_support.c\n'}
+[32.668000] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__type_support.c\n'}
+[32.668675] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__rosidl_typesupport_introspection_c.h\n'}
+[32.669361] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[32.670250] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_introspection_c.so\n'}
+[32.671715] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[32.672321] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_c.so\n'}
+[32.679680] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_c.so" to ""\n'}
+[32.680229] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg\n'}
+[32.680660] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg\n'}
+[32.681055] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail\n'}
+[32.681495] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__struct.hpp\n'}
+[32.682205] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__builder.hpp\n'}
+[32.682868] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__struct.hpp\n'}
+[32.683536] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__traits.hpp\n'}
+[32.684223] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__traits.hpp\n'}
+[32.684891] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__builder.hpp\n'}
+[32.685553] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/pose.hpp\n'}
+[32.686216] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/poses.hpp\n'}
+[32.686980] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg\n'}
+[32.687385] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg\n'}
+[32.687787] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail\n'}
+[32.688208] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__type_support.cpp\n'}
+[32.688914] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__type_support.cpp\n'}
+[32.689603] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.690308] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.703670] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[32.706063] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[32.706692] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_cpp.so\n'}
+[32.708096] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[32.708621] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/pythonpath.sh\n'}
+[32.709394] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/pythonpath.dsv\n'}
+[32.710648] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/__init__.py\n'}
+[32.719917] (-) TimerEvent: {}
+[32.820257] (-) TimerEvent: {}
+[32.867532] (motpy_pifpaf_msg) StdoutLine: {'line': b"Compiling '/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/__init__.py'...\n"}
+[32.874627] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg\n'}
+[32.875330] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg/_pose_s.c\n'}
+[32.876059] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg/_poses_s.c\n'}
+[32.876716] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg/_poses.py\n'}
+[32.877365] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg/__init__.py\n'}
+[32.878009] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg/_pose.py\n'}
+[32.879016] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[32.880625] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[32.881404] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[32.883310] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[32.884087] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[32.885945] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[32.886529] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__python.so\n'}
+[32.888288] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Set runtime path of "/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__python.so" to ""\n'}
+[32.888983] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/msg/Pose.idl\n'}
+[32.889881] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/msg/Poses.idl\n'}
+[32.890781] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/msg/Pose.msg\n'}
+[32.891689] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/msg/Poses.msg\n'}
+[32.892774] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/ament_index/resource_index/package_run_dependencies/motpy_pifpaf_msg\n'}
+[32.893854] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/ament_index/resource_index/parent_prefix_path/motpy_pifpaf_msg\n'}
+[32.894766] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/ament_prefix_path.sh\n'}
+[32.907992] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/ament_prefix_path.dsv\n'}
+[32.908884] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/path.sh\n'}
+[32.909797] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/path.dsv\n'}
+[32.910640] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/local_setup.bash\n'}
+[32.911505] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/local_setup.sh\n'}
+[32.912349] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/local_setup.zsh\n'}
+[32.913192] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/local_setup.dsv\n'}
+[32.914060] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/package.dsv\n'}
+[32.915165] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/ament_index/resource_index/packages/motpy_pifpaf_msg\n'}
+[32.916279] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_generator_cExport.cmake\n'}
+[32.917192] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[32.918154] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[32.919081] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[32.920093] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_cExport.cmake\n'}
+[32.920275] (-) TimerEvent: {}
+[32.921515] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[32.922587] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_generator_cppExport.cmake\n'}
+[32.923760] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[32.924798] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[32.925799] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_cppExport.cmake\n'}
+[32.926868] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[32.928033] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[32.928996] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.930023] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[32.931093] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[32.932141] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[32.935976] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[32.936979] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[32.937874] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msgConfig.cmake\n'}
+[32.938658] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msgConfig-version.cmake\n'}
+[32.939547] (motpy_pifpaf_msg) StdoutLine: {'line': b'-- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/package.xml\n'}
+[32.952656] (motpy_pifpaf_msg) CommandEnded: {'returncode': 0}
+[33.020707] (-) TimerEvent: {}
+[33.121599] (-) TimerEvent: {}
+[33.222065] (-) TimerEvent: {}
+[33.322424] (-) TimerEvent: {}
+[33.422780] (-) TimerEvent: {}
+[33.523667] (-) TimerEvent: {}
+[33.624601] (-) TimerEvent: {}
+[33.671656] (motpy_pifpaf_msg) JobEnded: {'identifier': 'motpy_pifpaf_msg', 'rc': 0}
+[33.675522] (-) EventReactorShutdown: {}

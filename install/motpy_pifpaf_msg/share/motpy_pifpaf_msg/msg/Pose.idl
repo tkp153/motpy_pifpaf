@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from motpy_pifpaf_msg/msg/Pose.msg
+// generated code does not contain a copyright notice
+
+
+module motpy_pifpaf_msg {
+  module msg {
+    struct Pose {
+      sequence<float> keypoints;
+    };
+  };
+};

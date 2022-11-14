@@ -1,0 +1,20 @@
+CMake Warning (dev) at CMakeLists.txt:40:
+  Syntax Warning in cmake code at column 19
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:41:
+  Syntax Warning in cmake code at column 20
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error in CMakeLists.txt:
+  A logical block opening on the line
+
+    /root/motpy_pifpaf/src/motpy_pifpaf_msg/CMakeLists.txt:24 (if)
+
+  is not closed.
+
+

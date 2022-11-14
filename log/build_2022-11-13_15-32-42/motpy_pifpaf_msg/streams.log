@@ -1,0 +1,41 @@
+[0.750s] Invoking command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/motpy_pifpaf/src/motpy_pifpaf_msg -DCMAKE_INSTALL_PREFIX=/root/motpy_pifpaf/install/motpy_pifpaf_msg
+[0.803s] CMake Warning (dev) at CMakeLists.txt:40:
+[0.804s]   Syntax Warning in cmake code at column 19
+[0.804s] 
+[0.804s]   Argument not separated from preceding token by whitespace.
+[0.804s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.804s] 
+[0.805s] CMake Warning (dev) at CMakeLists.txt:41:
+[0.805s]   Syntax Warning in cmake code at column 20
+[0.805s] 
+[0.805s]   Argument not separated from preceding token by whitespace.
+[0.805s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.806s] 
+[1.255s] -- The C compiler identification is GNU 9.4.0
+[1.602s] -- The CXX compiler identification is GNU 9.4.0
+[1.631s] -- Check for working C compiler: /usr/bin/cc
+[2.107s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.110s] -- Detecting C compiler ABI info
+[2.453s] -- Detecting C compiler ABI info - done
+[2.512s] -- Detecting C compile features
+[2.513s] -- Detecting C compile features - done
+[2.527s] -- Check for working CXX compiler: /usr/bin/c++
+[2.813s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.816s] -- Detecting CXX compiler ABI info
+[3.272s] -- Detecting CXX compiler ABI info - done
+[3.306s] -- Detecting CXX compile features
+[3.307s] -- Detecting CXX compile features - done
+[3.320s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.425s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.426s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.045s] CMake Error in CMakeLists.txt:
+[4.045s]   A logical block opening on the line
+[4.045s] 
+[4.046s]     /root/motpy_pifpaf/src/motpy_pifpaf_msg/CMakeLists.txt:24 (if)
+[4.046s] 
+[4.046s]   is not closed.
+[4.046s] 
+[4.046s] 
+[4.046s] -- Configuring incomplete, errors occurred!
+[4.047s] See also "/root/motpy_pifpaf/build/motpy_pifpaf_msg/CMakeFiles/CMakeOutput.log".
+[4.053s] Invoked command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/motpy_pifpaf/src/motpy_pifpaf_msg -DCMAKE_INSTALL_PREFIX=/root/motpy_pifpaf/install/motpy_pifpaf_msg

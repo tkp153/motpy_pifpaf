@@ -1,0 +1,4 @@
+source;share/motpy_pifpaf_msg/local_setup.bash
+source;share/motpy_pifpaf_msg/local_setup.dsv
+source;share/motpy_pifpaf_msg/local_setup.sh
+source;share/motpy_pifpaf_msg/local_setup.zsh

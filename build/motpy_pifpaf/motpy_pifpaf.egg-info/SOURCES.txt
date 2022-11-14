@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/motpy_pifpaf/motpy_pifpaf.egg-info/PKG-INFO
+../../build/motpy_pifpaf/motpy_pifpaf.egg-info/SOURCES.txt
+../../build/motpy_pifpaf/motpy_pifpaf.egg-info/dependency_links.txt
+../../build/motpy_pifpaf/motpy_pifpaf.egg-info/entry_points.txt
+../../build/motpy_pifpaf/motpy_pifpaf.egg-info/requires.txt
+../../build/motpy_pifpaf/motpy_pifpaf.egg-info/top_level.txt
+../../build/motpy_pifpaf/motpy_pifpaf.egg-info/zip-safe
+motpy_pifpaf/__init__.py
+motpy_pifpaf/motpy_pifpaf.py
+resource/motpy_pifpaf
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

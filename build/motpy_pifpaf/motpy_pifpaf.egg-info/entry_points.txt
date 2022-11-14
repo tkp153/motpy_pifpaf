@@ -1,0 +1,3 @@
+[console_scripts]
+motpy_pifpaf = motpy_pifpaf.motpy_pifpaf:main
+
