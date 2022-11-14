@@ -112,7 +112,7 @@ static rosidl_typesupport_introspection_c__MessageMember Poses__rosidl_typesuppo
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is array
+    true,  // is array
     0,  // array size
     false,  // is upper bound
     offsetof(motpy_pifpaf_msg__msg__Poses, id),  // bytes offset in struct

@@ -36,7 +36,7 @@ motpy_pifpaf_msg__msg__Poses__init(motpy_pifpaf_msg__msg__Poses * msg)
     return false;
   }
   // id
-  if (!rosidl_runtime_c__String__init(&msg->id)) {
+  if (!rosidl_runtime_c__String__Sequence__init(&msg->id, 0)) {
     motpy_pifpaf_msg__msg__Poses__fini(msg);
     return false;
   }
@@ -54,7 +54,7 @@ motpy_pifpaf_msg__msg__Poses__fini(motpy_pifpaf_msg__msg__Poses * msg)
   // poses
   motpy_pifpaf_msg__msg__Pose__Sequence__fini(&msg->poses);
   // id
-  rosidl_runtime_c__String__fini(&msg->id);
+  rosidl_runtime_c__String__Sequence__fini(&msg->id);
 }
 
 bool
@@ -76,7 +76,7 @@ motpy_pifpaf_msg__msg__Poses__are_equal(const motpy_pifpaf_msg__msg__Poses * lhs
     return false;
   }
   // id
-  if (!rosidl_runtime_c__String__are_equal(
+  if (!rosidl_runtime_c__String__Sequence__are_equal(
       &(lhs->id), &(rhs->id)))
   {
     return false;
@@ -105,7 +105,7 @@ motpy_pifpaf_msg__msg__Poses__copy(
     return false;
   }
   // id
-  if (!rosidl_runtime_c__String__copy(
+  if (!rosidl_runtime_c__String__Sequence__copy(
       &(input->id), &(output->id)))
   {
     return false;

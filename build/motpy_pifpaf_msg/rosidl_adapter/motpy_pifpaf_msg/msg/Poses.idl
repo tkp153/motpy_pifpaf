@@ -12,7 +12,7 @@ module motpy_pifpaf_msg {
 
       sequence<motpy_pifpaf_msg::msg::Pose> poses;
 
-      string id;
+      sequence<string> id;
     };
   };
 };

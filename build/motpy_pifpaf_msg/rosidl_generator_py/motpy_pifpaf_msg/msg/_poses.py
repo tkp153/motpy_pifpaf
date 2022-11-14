@@ -69,13 +69,13 @@ class Poses(metaclass=Metaclass_Poses):
     _fields_and_field_types = {
         'header': 'std_msgs/Header',
         'poses': 'sequence<motpy_pifpaf_msg/Pose>',
-        'id': 'string',
+        'id': 'sequence<string>',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Header'),  # noqa: E501
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.NamespacedType(['motpy_pifpaf_msg', 'msg'], 'Pose')),  # noqa: E501
-        rosidl_parser.definition.UnboundedString(),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.UnboundedString()),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -85,7 +85,7 @@ class Poses(metaclass=Metaclass_Poses):
         from std_msgs.msg import Header
         self.header = kwargs.get('header', Header())
         self.poses = kwargs.get('poses', [])
-        self.id = kwargs.get('id', str())
+        self.id = kwargs.get('id', [])
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -175,7 +175,17 @@ class Poses(metaclass=Metaclass_Poses):
     @id.setter  # noqa: A003
     def id(self, value):  # noqa: A003
         if __debug__:
+            from collections.abc import Sequence
+            from collections.abc import Set
+            from collections import UserList
+            from collections import UserString
             assert \
-                isinstance(value, str), \
-                "The 'id' field must be of type 'str'"
+                ((isinstance(value, Sequence) or
+                  isinstance(value, Set) or
+                  isinstance(value, UserList)) and
+                 not isinstance(value, str) and
+                 not isinstance(value, UserString) and
+                 all(isinstance(v, str) for v in value) and
+                 True), \
+                "The 'id' field must be a set or sequence and each value of type 'str'"
         self._id = value

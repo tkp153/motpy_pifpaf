@@ -30,7 +30,7 @@ typedef struct motpy_pifpaf_msg__msg__Poses
 {
   std_msgs__msg__Header header;
   motpy_pifpaf_msg__msg__Pose__Sequence poses;
-  rosidl_runtime_c__String id;
+  rosidl_runtime_c__String__Sequence id;
 } motpy_pifpaf_msg__msg__Poses;
 
 // Struct for a sequence of motpy_pifpaf_msg__msg__Poses.

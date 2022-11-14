@@ -41,22 +41,13 @@ struct Poses_
   explicit Poses_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   : header(_init)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->id = "";
-    }
+    (void)_init;
   }
 
   explicit Poses_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : header(_alloc, _init),
-    id(_alloc)
+  : header(_alloc, _init)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->id = "";
-    }
+    (void)_init;
   }
 
   // field types and members
@@ -67,7 +58,7 @@ struct Poses_
     std::vector<motpy_pifpaf_msg::msg::Pose_<ContainerAllocator>, typename ContainerAllocator::template rebind<motpy_pifpaf_msg::msg::Pose_<ContainerAllocator>>::other>;
   _poses_type poses;
   using _id_type =
-    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
+    std::vector<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>, typename ContainerAllocator::template rebind<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>>::other>;
   _id_type id;
 
   // setters for named parameter idiom
@@ -84,7 +75,7 @@ struct Poses_
     return *this;
   }
   Type & set__id(
-    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
+    const std::vector<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>, typename ContainerAllocator::template rebind<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>>::other> & _arg)
   {
     this->id = _arg;
     return *this;

@@ -9,7 +9,7 @@ from motpy import Detection,MultiObjectTracker
 import numpy as np
 
 # ROS2 main class
-class motpy_pifpaf():
+class motpy_pifpaf(Node):
     def __init__(self):
         super().__init__("motpy_pifpaf")
         
@@ -23,7 +23,7 @@ class motpy_pifpaf():
         # Calling a Openpifpaf.predictor module
         self.predictor = Predictor()
         # Camera mode parameters -> Default parameters 1: RealSense
-        self.declare_parameter('camera_mode',"1")
+        self.declare_parameter('camera_mode',"3")
         camera_mode = self.get.parameter('camera_mode').value
         
         if(camera_mode == 1):
@@ -92,15 +92,18 @@ class motpy_pifpaf():
         '''
         motpy_area
         '''
+        id = []
         bbox,score,label = self.voc_publish(poses)
         tracks = Motpy_engine.track(bbox,score,label)
-                
+        for track in tracks:
+            id_data = track.id[:8]
+            id.append(id_data)        
         
-        self.publish(data.header,poses) 
+        self.publish(data.header,poses,id) 
         
 
     # Publish functions
-    def publish(self,header,poses):
+    def publish(self,header,poses,id):
         
         msg = Poses()
         msg.header.stamp = header.stamp
@@ -112,6 +115,7 @@ class motpy_pifpaf():
             pmsg = Pose()
             pmsg.keypoints = p['keypoints']
             msg.poses.append(pmsg)
+        msg.id = id
     
     def voc_publish(self,poses):
         bbox = []
@@ -154,4 +158,20 @@ class Motpy_engine():
         x2 = x1 + w
         y2 = y1 + h
         voc = np.array([x1,y1,x2,y2])
-        return  voc      
+        return  voc
+    
+def main():
+    
+    print("starts")
+    
+    #Node initialization
+    rclpy.init()
+    
+    node = motpy_pifpaf()
+    
+    rclpy.spin(node)
+    
+    rclpy.shutdown()
+    
+if __name__ == "__main__":
+    main()
