@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/PKG-INFO
+writing dependency_links to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/dependency_links.txt
+writing entry points to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/entry_points.txt
+writing requirements to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/requires.txt
+writing top-level names to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/top_level.txt
+reading manifest file '../../build/motpy_pifpaf/motpy_pifpaf.egg-info/SOURCES.txt'
+writing manifest file '../../build/motpy_pifpaf/motpy_pifpaf.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/motpy_pifpaf/motpy_pifpaf.egg-info to /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf-0.0.0-py3.8.egg-info
+running install_scripts
+Installing motpy_pifpaf script to /root/motpy_pifpaf/install/motpy_pifpaf/lib/motpy_pifpaf
+writing list of installed files to '/root/motpy_pifpaf/build/motpy_pifpaf/install.log'

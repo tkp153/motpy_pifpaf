@@ -6,12 +6,14 @@ from cv_bridge import CvBridge
 from openpifpaf.predictor import Predictor
 from motpy_pifpaf_msg.msg import Pose,Poses
 from motpy import Detection,MultiObjectTracker
+from motpy import track_to_string
 import numpy as np
 
 # ROS2 main class
 class motpy_pifpaf(Node):
     def __init__(self):
         super().__init__("motpy_pifpaf")
+        
         
         ''' 
             Camera mode
@@ -24,39 +26,44 @@ class motpy_pifpaf(Node):
         self.predictor = Predictor()
         # Camera mode parameters -> Default parameters 1: RealSense
         self.declare_parameter('camera_mode',"3")
-        camera_mode = self.get.parameter('camera_mode').value
+        camera_mode = int(self.get_parameter('camera_mode').value)
         
         if(camera_mode == 1):
             in_topic = "/camera/color/image_raw"
             out_topic = "human_pose"
             scale = 1.0
-            qos_profile = "best quality"
+            qos_profile = "best"
         elif(camera_mode == 2):
             in_topic = "/rgb/image_raw"
             out_topic = "human_pose"
             scale = 1.0
-            qos_profile = "best quality"
+            qos_profile = "best"
         elif(camera_mode == 3):
             in_topic = "/image_raw"
             out_topic = "human_pose"
             scale = 1.0
-            qos_profile = "best quality"
+            qos_profile = "best"
         else:
             self.get_logger().error("out of ranges")
         
         # QoSProfile setting
-        if(qos_profile == "best quality"):
+        if(qos_profile == "best"):
+            print("best QoSProfile")
             video_qos = rclpy.qos.QoSProfile(depth = 10)
             video_qos.reliability = rclpy.qos.QoSReliabilityPolicy.BEST_EFFORT
         elif(qos_profile == "good"):
+            print("good QoSProfile")
             video_qos = rclpy.qos.QoSProfile(depth = 5)
             video_qos.reliability = rclpy.qos.QoSReliabilityPolicy.BEST_EFFORT
             
+        else:
+            self.get_logger().error("out of range")
+            
         # Generate subscription
-        self.subscription = rclpy.create_subscription(Image,in_topic,self.motpy_callback,video_qos)
+        self.subscription = self.create_subscription(Image,in_topic,self.motpy_callback,video_qos)
         
         # Generate Publisher
-        self.publisher = rclpy.create_publisher(Poses,out_topic,video_qos)
+        self.publisher = self.create_publisher(Poses,out_topic,video_qos)
         
         #CvBridge
         self.bride = CvBridge()
@@ -71,7 +78,7 @@ class motpy_pifpaf(Node):
         if float(self.scale)  < 1.0:
             rgb_image = cv2.resize(rgb_image,None,fx = self.scale, fy=self.scale)
             
-        pred,_, meta = self.predictor.numpy_images()
+        pred,_, meta = self.predictor.numpy_image(rgb_image)
         
         poses = []
         
@@ -94,9 +101,10 @@ class motpy_pifpaf(Node):
         '''
         id = []
         bbox,score,label = self.voc_publish(poses)
-        tracks = Motpy_engine.track(bbox,score,label)
+        tracks = Motpy_engine.track(self,bbox,score,label)
         for track in tracks:
-            id_data = track.id[:8]
+            text_verbose = 1
+            id_data =  track_to_string(track) if text_verbose == 2 else track.id[:8]
             id.append(id_data)        
         
         self.publish(data.header,poses,id) 
@@ -116,6 +124,8 @@ class motpy_pifpaf(Node):
             pmsg.keypoints = p['keypoints']
             msg.poses.append(pmsg)
         msg.id = id
+        
+        self.publisher.publish(msg)
     
     def voc_publish(self,poses):
         bbox = []
@@ -124,7 +134,7 @@ class motpy_pifpaf(Node):
         
         for p in poses:
             my_coco_box = p['bbox']
-            coco_box = Motpy_engine.xywh_to_xyxy(my_coco_box)
+            coco_box = Motpy_engine.xywh_to_xyxy(self,my_coco_box)
             scores = p['score']
             labels = p['category_id']
             bbox.append(coco_box)
@@ -136,15 +146,15 @@ class motpy_pifpaf(Node):
 class Motpy_engine():
     def __init__(self):
         self.mode = None
-        self.tracker = MultiObjectTracker(dt = 0.1)
+        
         
     def track(self,boxes,scores,labels):
-        
+        tracker = MultiObjectTracker(dt = 0.1)
         outputs = [Detection(box = b,score= s, class_id = l) for b,s,l in zip(boxes,scores,labels)]
         
-        self.tracker.step(detections = outputs)
+        tracker.step(detections = outputs)
         
-        tracks = self.tracker.active_tracks()
+        tracks = tracker.active_tracks()
         return tracks
     
     def xywh_to_xyxy(self,data):
