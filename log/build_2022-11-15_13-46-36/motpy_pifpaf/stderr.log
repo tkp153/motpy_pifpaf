@@ -1,0 +1,5 @@
+  File "/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/rgbd_motpy_pifpaf.py", line 30
+    In_Pose_Topic =
+                   ^
+SyntaxError: invalid syntax
+

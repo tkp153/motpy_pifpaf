@@ -1,7 +1,9 @@
 /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/motpy_pifpaf.py
+/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/rgbd_motpy_pifpaf.py
 /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/motpy_pifpafv2.py
 /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/__init__.py
 /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/__pycache__/motpy_pifpaf.cpython-38.pyc
+/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/__pycache__/rgbd_motpy_pifpaf.cpython-38.pyc
 /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/__pycache__/motpy_pifpafv2.cpython-38.pyc
 /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/__pycache__/__init__.cpython-38.pyc
 /root/motpy_pifpaf/install/motpy_pifpaf/share/ament_index/resource_index/packages/motpy_pifpaf

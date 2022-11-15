@@ -1,0 +1,33 @@
+[0.728s] Invoking command in '/root/motpy_pifpaf/src/motpy_pifpaf': PYTHONPATH=/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/motpy_pifpaf build --build-base /root/motpy_pifpaf/build/motpy_pifpaf/build install --prefix /root/motpy_pifpaf/install/motpy_pifpaf --record /root/motpy_pifpaf/build/motpy_pifpaf/install.log --single-version-externally-managed
+[0.956s] running egg_info
+[0.957s] writing ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/PKG-INFO
+[0.957s] writing dependency_links to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/dependency_links.txt
+[0.957s] writing entry points to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/entry_points.txt
+[0.957s] writing requirements to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/top_level.txt
+[0.992s] reading manifest file '../../build/motpy_pifpaf/motpy_pifpaf.egg-info/SOURCES.txt'
+[0.992s] writing manifest file '../../build/motpy_pifpaf/motpy_pifpaf.egg-info/SOURCES.txt'
+[0.992s] running build
+[0.992s] running build_py
+[0.993s] copying motpy_pifpaf/rgbd_motpy_pifpaf.py -> /root/motpy_pifpaf/build/motpy_pifpaf/build/lib/motpy_pifpaf
+[0.993s] copying motpy_pifpaf/motpy_pifpafv2.py -> /root/motpy_pifpaf/build/motpy_pifpaf/build/lib/motpy_pifpaf
+[0.993s] running install
+[0.994s] running install_lib
+[0.995s] copying /root/motpy_pifpaf/build/motpy_pifpaf/build/lib/motpy_pifpaf/rgbd_motpy_pifpaf.py -> /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf
+[0.996s] copying /root/motpy_pifpaf/build/motpy_pifpaf/build/lib/motpy_pifpaf/motpy_pifpafv2.py -> /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf
+[0.996s] byte-compiling /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/rgbd_motpy_pifpaf.py to rgbd_motpy_pifpaf.cpython-38.pyc
+[0.998s]   File "/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/rgbd_motpy_pifpaf.py", line 30
+[0.998s]     In_Pose_Topic =
+[0.998s]                    ^
+[0.998s] SyntaxError: invalid syntax
+[0.998s] 
+[0.998s] byte-compiling /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf/motpy_pifpafv2.py to motpy_pifpafv2.cpython-38.pyc
+[0.999s] running install_data
+[1.000s] running install_egg_info
+[1.001s] removing '/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf-0.0.0-py3.8.egg-info' (and everything under it)
+[1.001s] Copying ../../build/motpy_pifpaf/motpy_pifpaf.egg-info to /root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages/motpy_pifpaf-0.0.0-py3.8.egg-info
+[1.002s] running install_scripts
+[1.022s] Installing motpy_pifpaf script to /root/motpy_pifpaf/install/motpy_pifpaf/lib/motpy_pifpaf
+[1.022s] Installing motpy_pifpafv2 script to /root/motpy_pifpaf/install/motpy_pifpaf/lib/motpy_pifpaf
+[1.022s] writing list of installed files to '/root/motpy_pifpaf/build/motpy_pifpaf/install.log'
+[1.044s] Invoked command in '/root/motpy_pifpaf/src/motpy_pifpaf' returned '0': PYTHONPATH=/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/motpy_pifpaf build --build-base /root/motpy_pifpaf/build/motpy_pifpaf/build install --prefix /root/motpy_pifpaf/install/motpy_pifpaf --record /root/motpy_pifpaf/build/motpy_pifpaf/install.log --single-version-externally-managed

@@ -31,7 +31,7 @@ class motpy_pifpafV2(Node):
         camera_mode = int(self.get_parameter('camera_mode').value)
         
         # Debug mode parameters (OpenCV imshow mode) -> Default parameters: False
-        self.declare_parameter('debug','False')
+        self.declare_parameter('debug','True')
         debug = self.get_parameter('debug').value
         if(camera_mode == 1):
             in_topic = "/camera/color/image_raw"
@@ -125,6 +125,7 @@ class motpy_pifpafV2(Node):
         
         if (self.debug == True):
             cv2.imshow('motpy_pifpaf(DEBUG MODE)',img)
+            print(img.get(cv2.CAP_PROP_FPS))
             self.publish(data.header,poses,motpy_id)
         elif(self.debug == False):
             self.publish(data.header,poses,motpy_id)
