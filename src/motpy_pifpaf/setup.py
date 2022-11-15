@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'motpy_pifpaf = motpy_pifpaf.motpy_pifpaf:main'
+            'motpy_pifpaf = motpy_pifpaf.motpy_pifpaf:main',
+            'motpy_pifpafv2 = motpy_pifpaf.motpy_pifpafv2:main',
         ],
     },
 )

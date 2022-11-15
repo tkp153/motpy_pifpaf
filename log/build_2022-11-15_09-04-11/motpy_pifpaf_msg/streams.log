@@ -1,0 +1,132 @@
+[0.227s] Invoking command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/motpy_pifpaf/build/motpy_pifpaf_msg -- -j12 -l12
+[0.359s] [  2%] Built target motpy_pifpaf_msg__cpp
+[0.361s] [ 12%] Built target motpy_pifpaf_msg__rosidl_generator_c
+[0.388s] [ 23%] Built target motpy_pifpaf_msg__rosidl_typesupport_c
+[0.388s] [ 33%] Built target motpy_pifpaf_msg__rosidl_typesupport_introspection_c
+[0.390s] [ 43%] Built target motpy_pifpaf_msg__rosidl_typesupport_introspection_cpp
+[0.391s] [ 53%] Built target motpy_pifpaf_msg__rosidl_typesupport_cpp
+[0.392s] [ 64%] Built target motpy_pifpaf_msg__rosidl_typesupport_fastrtps_cpp
+[0.425s] [ 74%] Built target motpy_pifpaf_msg__rosidl_typesupport_fastrtps_c
+[0.448s] [ 74%] Built target motpy_pifpaf_msg
+[0.471s] [ 76%] Built target motpy_pifpaf_msg__py
+[0.506s] [ 84%] Built target motpy_pifpaf_msg__python
+[0.546s] [ 89%] Built target motpy_pifpaf_msg__rosidl_typesupport_fastrtps_c__pyext
+[0.549s] [100%] Built target motpy_pifpaf_msg__rosidl_typesupport_c__pyext
+[0.549s] [100%] Built target motpy_pifpaf_msg__rosidl_typesupport_introspection_c__pyext
+[0.563s] Invoked command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/motpy_pifpaf/build/motpy_pifpaf_msg -- -j12 -l12
+[0.708s] Invoking command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /root/motpy_pifpaf/build/motpy_pifpaf_msg
+[0.718s] -- Install configuration: ""
+[0.718s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/ament_index/resource_index/rosidl_interfaces/motpy_pifpaf_msg
+[0.718s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg
+[0.718s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg
+[0.719s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/rosidl_generator_c__visibility_control.h
+[0.719s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/poses.h
+[0.719s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail
+[0.719s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__functions.h
+[0.719s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__struct.h
+[0.719s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__type_support.h
+[0.719s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__type_support.h
+[0.720s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__functions.c
+[0.720s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__struct.h
+[0.720s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__functions.c
+[0.720s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__functions.h
+[0.720s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/pose.h
+[0.720s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/library_path.sh
+[0.720s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/library_path.dsv
+[0.721s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_generator_c.so
+[0.721s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg
+[0.721s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg
+[0.721s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail
+[0.721s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__rosidl_typesupport_fastrtps_c.h
+[0.721s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[0.722s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.722s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_fastrtps_c.so
+[0.722s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg
+[0.722s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg
+[0.722s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail
+[0.722s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[0.722s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__rosidl_typesupport_fastrtps_cpp.hpp
+[0.723s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/dds_fastrtps
+[0.723s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.723s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_fastrtps_cpp.so
+[0.723s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg
+[0.723s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg
+[0.723s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail
+[0.724s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[0.724s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__type_support.c
+[0.724s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__type_support.c
+[0.724s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__rosidl_typesupport_introspection_c.h
+[0.724s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.724s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_introspection_c.so
+[0.724s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_c.so
+[0.724s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg
+[0.725s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg
+[0.725s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail
+[0.725s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__struct.hpp
+[0.725s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__builder.hpp
+[0.725s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__struct.hpp
+[0.725s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__traits.hpp
+[0.725s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__traits.hpp
+[0.726s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__builder.hpp
+[0.726s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/pose.hpp
+[0.726s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/poses.hpp
+[0.726s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg
+[0.726s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg
+[0.726s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail
+[0.726s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__type_support.cpp
+[0.726s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__type_support.cpp
+[0.727s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[0.727s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/include/motpy_pifpaf_msg/msg/detail/poses__rosidl_typesupport_introspection_cpp.hpp
+[0.727s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_introspection_cpp.so
+[0.727s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__rosidl_typesupport_cpp.so
+[0.727s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/pythonpath.sh
+[0.727s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/pythonpath.dsv
+[0.727s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/__init__.py
+[0.759s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg
+[0.759s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg/_pose_s.c
+[0.759s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg/_poses_s.c
+[0.759s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg/_poses.py
+[0.759s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg/__init__.py
+[0.759s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/msg/_pose.py
+[0.759s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.760s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.761s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages/motpy_pifpaf_msg/motpy_pifpaf_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.761s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/libmotpy_pifpaf_msg__python.so
+[0.762s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/msg/Pose.idl
+[0.762s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/msg/Poses.idl
+[0.762s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/msg/Pose.msg
+[0.762s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/msg/Poses.msg
+[0.762s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/ament_index/resource_index/package_run_dependencies/motpy_pifpaf_msg
+[0.762s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/ament_index/resource_index/parent_prefix_path/motpy_pifpaf_msg
+[0.763s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/ament_prefix_path.sh
+[0.763s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/ament_prefix_path.dsv
+[0.763s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/path.sh
+[0.763s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/environment/path.dsv
+[0.763s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/local_setup.bash
+[0.763s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/local_setup.sh
+[0.764s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/local_setup.zsh
+[0.764s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/local_setup.dsv
+[0.764s] -- Installing: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/package.dsv
+[0.764s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/ament_index/resource_index/packages/motpy_pifpaf_msg
+[0.764s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_generator_cExport.cmake
+[0.764s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_generator_cExport-noconfig.cmake
+[0.764s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_introspection_cExport.cmake
+[0.765s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.765s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_cExport.cmake
+[0.765s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_cExport-noconfig.cmake
+[0.765s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_generator_cppExport.cmake
+[0.765s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_introspection_cppExport.cmake
+[0.765s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.765s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_cppExport.cmake
+[0.766s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[0.766s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/rosidl_cmake-extras.cmake
+[0.766s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.766s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[0.766s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/ament_cmake_export_targets-extras.cmake
+[0.766s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.766s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.766s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.767s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msgConfig.cmake
+[0.767s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/cmake/motpy_pifpaf_msgConfig-version.cmake
+[0.767s] -- Up-to-date: /root/motpy_pifpaf/install/motpy_pifpaf_msg/share/motpy_pifpaf_msg/package.xml
+[0.769s] Invoked command in '/root/motpy_pifpaf/build/motpy_pifpaf_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /root/motpy_pifpaf/build/motpy_pifpaf_msg

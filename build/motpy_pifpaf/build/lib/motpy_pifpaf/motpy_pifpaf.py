@@ -7,7 +7,9 @@ from openpifpaf.predictor import Predictor
 from motpy_pifpaf_msg.msg import Pose,Poses
 from motpy import Detection,MultiObjectTracker
 from motpy import track_to_string
+from motpy.core import Detection,Track
 import numpy as np
+from motpy.testing_viz import draw_rectangle,draw_text
 
 # ROS2 main class
 class motpy_pifpaf(Node):
@@ -102,11 +104,10 @@ class motpy_pifpaf(Node):
         id = []
         bbox,score,label = self.voc_publish(poses)
         tracks = Motpy_engine.track(self,bbox,score,label)
-        for track in tracks:
-            text_verbose = 1
-            id_data =  track_to_string(track) if text_verbose == 2 else track.id[:8]
-            id.append(id_data)        
-        
+        for trc in tracks:
+                id_data = Motpy_engine.id_track(self,rgb_image,trc,thickness=1)
+                print("tracksid: " + id_data)
+                id.append(id_data)
         self.publish(data.header,poses,id) 
         
 
@@ -149,13 +150,27 @@ class Motpy_engine():
         
         
     def track(self,boxes,scores,labels):
+        id = []
         tracker = MultiObjectTracker(dt = 0.1)
         outputs = [Detection(box = b,score= s, class_id = l) for b,s,l in zip(boxes,scores,labels)]
         
         tracker.step(detections = outputs)
         
         tracks = tracker.active_tracks()
+        
         return tracks
+    
+    def id_track(self,img, track: Track, random_color: bool = True, fallback_color=(200, 20, 20), thickness: int = 5, text_at_bottom: bool = False, text_verbose: int = 1):
+        color = [ord(c) * ord(c) % 256 for c in track.id[:3]] if random_color else fallback_color
+        draw_rectangle(img, track.box, color=color, thickness=thickness)
+        pos = (track.box[0], track.box[3]) if text_at_bottom else (track.box[0], track.box[1])
+
+        if text_verbose > 0:
+            text = track_to_string(track) if text_verbose == 2 else track.id[:8]
+            draw_text(img, text, pos=pos)
+
+        return text
+    
     
     def xywh_to_xyxy(self,data):
         
