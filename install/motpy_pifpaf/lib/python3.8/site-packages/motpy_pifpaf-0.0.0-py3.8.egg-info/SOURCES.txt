@@ -9,6 +9,7 @@ setup.py
 ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/top_level.txt
 ../../build/motpy_pifpaf/motpy_pifpaf.egg-info/zip-safe
 motpy_pifpaf/__init__.py
+motpy_pifpaf/motpy_check.py
 motpy_pifpaf/motpy_pifpaf.py
 motpy_pifpaf/motpy_pifpafv2.py
 motpy_pifpaf/rgbd_motpy_pifpaf.py

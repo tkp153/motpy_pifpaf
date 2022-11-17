@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'motpy_pifpaf = motpy_pifpaf.motpy_pifpaf:main',
             'motpy_pifpafv2 = motpy_pifpaf.motpy_pifpafv2:main',
+            'rgbd_motpy_pifpaf = motpy_pifpaf.rgbd_motpy_pifpaf:main',
+            'motpy_check = motpy_check.motpy_check:main',
         ],
     },
 )
